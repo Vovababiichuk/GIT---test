@@ -41,3 +41,18 @@ span {
   font-weight: 500;
   padding: 20px 0;
 }
+
+@media (max-width: 576px) {
+  img {
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+}
+
+p {
+  width: 100%;
+  padding: 0 10px;
+}
